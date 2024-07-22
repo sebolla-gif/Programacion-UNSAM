@@ -1,3 +1,7 @@
+/*
+Escribir una función que reciba las coordenadas de dos vectores en el plano y 
+devuelva las coordenadas del vector que resulta de componer ambos vectores 
+*/
 #include <stdio.h>
 #include <stdlib.h>
 

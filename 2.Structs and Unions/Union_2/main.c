@@ -1,3 +1,8 @@
+/*
+Definir un tipo de dato que tenga dos campos: tipo (1, 2, o 3) y un segundo 
+campo para el valor. El valor dependiendo del tipo debe permitir almacenar un 
+int, un float o un double pero s√≥lo uno simult√°neamente. 
+*/
 #include <stdio.h>
 #include <stdlib.h>
 
@@ -14,7 +19,7 @@ typedef struct campo
     tipo dato;
 } campo;
 
-// FunciÛn para leer el tipo de dato y el valor
+// FunciÔøΩn para leer el tipo de dato y el valor
 void leerDato(campo *campo)
 {
     printf("Ingrese el tipo de dato que desea almacenar: 1.int 2.float 3.double \n");
@@ -41,7 +46,7 @@ void leerDato(campo *campo)
     return;
 }
 
-// FunciÛn para mostrar el valor almacenado
+// FunciÔøΩn para mostrar el valor almacenado
 void mostrarDato(campo *campo)
 {
     switch(campo->tipo)

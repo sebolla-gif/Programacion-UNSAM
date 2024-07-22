@@ -1,3 +1,7 @@
+/*
+Leer por teclado los detalles (legajo, nombre, promedio) de n estudiantes (n < 
+100) y almacenarlo en el archivo estudiantes.dat. 
+*/
 #include <stdio.h>
 #include <stdlib.h>
 #define MAX 100

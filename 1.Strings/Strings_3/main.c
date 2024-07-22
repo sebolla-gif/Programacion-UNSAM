@@ -1,3 +1,6 @@
+/*
+Leer 5 strings por teclado y mostrar el “mayor” (alfabéticamente) 
+*/
 #include <stdio.h>
 #include <string.h>
 

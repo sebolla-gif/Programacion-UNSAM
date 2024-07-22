@@ -1,3 +1,7 @@
+/*
+Leer un string por teclado y luego convertirlo a mayúsculas sin usar las 
+funciones de string.h (ayuda: piense en los códigos ASCII y el nro. 32) 
+*/
 #include <stdio.h>
 #include <stdlib.h>
 

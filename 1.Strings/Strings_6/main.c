@@ -1,3 +1,6 @@
+/*
+Leer los strings del archivo del ej. anterior y mostrarlos en pantalla. 
+*/
 #include <stdio.h>
 #include <string.h>
 

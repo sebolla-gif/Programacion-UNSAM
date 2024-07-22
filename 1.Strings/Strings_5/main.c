@@ -1,3 +1,6 @@
+/*
+Leer 5 strings por teclado y almacenarlos en un archivo.
+*/
 #include <stdio.h>
 #include <string.h>
 

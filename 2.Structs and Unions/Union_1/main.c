@@ -1,9 +1,11 @@
 /*
-En C, tanto struct como union son herramientas para agrupar datos, pero se diferencian en cómo se almacenan en memoria.
-Un struct asigna una ubicación de memoria individual para cada miembro, mientras que un union los coloca todos en la misma ubicación.
+Â¿CuÃ¡l es la diferencia entre un struct y un union? 
 
-En un struct, cada miembro se puede acceder y modificar de forma independiente sin afectar a los demás.
-En cambio, en un union, solo se puede acceder a un miembro a la vez, ya que al modificar uno se sobrescriben los demás.
+En C, tanto struct como union son herramientas para agrupar datos, pero se diferencian en cï¿½mo se almacenan en memoria.
+Un struct asigna una ubicaciï¿½n de memoria individual para cada miembro, mientras que un union los coloca todos en la misma ubicaciï¿½n.
+
+En un struct, cada miembro se puede acceder y modificar de forma independiente sin afectar a los demï¿½s.
+En cambio, en un union, solo se puede acceder a un miembro a la vez, ya que al modificar uno se sobrescriben los demï¿½s.
 
 En resumen, se usan structs para agrupar datos relacionados que se necesitan juntos con frecuencia,
 mientras que se usan uniones cuando se necesita almacenar diferentes tipos de datos en la misma variable,
@@ -13,14 +15,14 @@ dependiendo del contexto.
 #include <stdio.h>
 #include <string.h>
 
-// Definición de struct
+// Definiciï¿½n de struct
 typedef struct {
     int entero;
     float decimal;
     char texto[20];
 } MiStruct;
 
-// Definición de union
+// Definiciï¿½n de union
 typedef union {
     int entero;
     float decimal;
@@ -28,7 +30,7 @@ typedef union {
 } MiUnion;
 
 int main() {
-    // Declaración y uso de struct
+    // Declaraciï¿½n y uso de struct
     MiStruct ejemploStruct;
     ejemploStruct.entero = 42;
     ejemploStruct.decimal = 3.14f;
@@ -38,18 +40,18 @@ int main() {
     printf("Struct - decimal: %.2f\n", ejemploStruct.decimal);
     printf("Struct - texto: %s\n", ejemploStruct.texto);
 
-    // Declaración y uso de union
+    // Declaraciï¿½n y uso de union
     MiUnion ejemploUnion;
     ejemploUnion.entero = 42;
-    printf("\nUnion después de asignar entero - entero: %d\n", ejemploUnion.entero);
+    printf("\nUnion despuï¿½s de asignar entero - entero: %d\n", ejemploUnion.entero);
 
     ejemploUnion.decimal = 3.14f;
-    printf("Union después de asignar decimal - decimal: %.2f\n", ejemploUnion.decimal);
-    printf("Union después de asignar decimal - entero: %d\n", ejemploUnion.entero);
+    printf("Union despuï¿½s de asignar decimal - decimal: %.2f\n", ejemploUnion.decimal);
+    printf("Union despuï¿½s de asignar decimal - entero: %d\n", ejemploUnion.entero);
 
     strcpy(ejemploUnion.texto, "Hola");
-    printf("Union después de asignar texto - texto: %s\n", ejemploUnion.texto);
-    printf("Union después de asignar texto - decimal: %.2f\n", ejemploUnion.decimal);
+    printf("Union despuï¿½s de asignar texto - texto: %s\n", ejemploUnion.texto);
+    printf("Union despuï¿½s de asignar texto - decimal: %.2f\n", ejemploUnion.decimal);
 
     return 0;
 }

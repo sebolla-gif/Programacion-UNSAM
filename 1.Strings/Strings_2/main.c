@@ -1,3 +1,7 @@
+/*
+Leer un string por teclado y luego mostrarlo en orden inverso sin usar las 
+funciones de string.h 
+*/
 #include <stdio.h>
 #include <stdlib.h>
 

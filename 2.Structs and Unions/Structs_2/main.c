@@ -1,3 +1,6 @@
+/*
+Leer el archivo estudiantes.dat y mostrar el estudiante con el mayor promedio. 
+*/
 #include <stdio.h>
 #include <string.h>
 #define MAX 100

@@ -1,3 +1,7 @@
+/*
+Escribir una función que reciba las coordenadas cartesianas de 2 puntos en el 
+espacio y devuelva la distancia euclídea. 
+*/
 #include <stdio.h>
 #include <stdlib.h>
 #include <math.h>
