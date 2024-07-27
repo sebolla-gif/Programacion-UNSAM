@@ -1,0 +1,7 @@
+1) Bien. Los valores correspondientes a ID se imprimen en formato incorrecto que no es posible leer. Para estos casos se usa formato hexadecimal o decimal dado que son números.  
+2) Bien. El ciclo de la función que cuenta los bits lo hace para 7 bits en lugar de 8 por la condición del for i<7.
+3) Bien.
+
+Teoría: Bien
+
+Nota: 9
