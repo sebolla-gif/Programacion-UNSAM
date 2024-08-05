@@ -4,7 +4,7 @@ En este repositorio se encuentran todas las guías y ejercicios resueltos de la 
 
 ## Aclaracion
 
-La mayoría de los ejercicios están resueltos de acuerdo con las propuestas de la materia, buscando ser modulares y eficientes, y manteniendo el main lo más limpio y legible posible.
+Los ejercicios están resueltos de tal manera que siguen las propuestas de la materia, buscando ser modulares y eficientes, y manteniendo el main lo más limpio y legible posible. Además, todos los ejercicios se ejecutan sin generar advertencias (warnings).
 
 
 > [!NOTE]
