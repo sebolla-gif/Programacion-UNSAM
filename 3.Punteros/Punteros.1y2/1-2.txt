@@ -1,0 +1,12 @@
+1. La opcion D cambia el valor de i a 75
+
+    k = 75;       // A. No cambia el valor de `i`
+    *k = 75;      // B. Inválido, `k` no es un puntero
+    p = 75;       // C. No cambia el valor de `i`, solo el puntero `p`
+    *p = 75;      // D. Correcto, cambia el valor de `i` a 75
+
+2.  Error en la asignación de punteros:
+
+    char c = 'A';
+    double *p2 = &c; // Error: no se puede asignar la dirección de un `char` a un puntero es de tipo `double`.
+
