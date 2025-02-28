@@ -4,9 +4,12 @@ En este repositorio se encuentran todas las guías y ejercicios resueltos de la 
 
 ## Aclaracion
 
-Los ejercicios están resueltos de tal manera que siguen las propuestas de la materia, buscando ser modulares y eficientes, y manteniendo el main lo más limpio y legible posible. Además, todos los ejercicios se ejecutan sin generar advertencias (warnings).
+Los ejercicios hasta la guia 3 están resueltos de tal manera que siguen las propuestas de la materia, buscando ser modulares y eficientes, y manteniendo el main lo más limpio y legible posible. Además, todos los ejercicios se ejecutan sin generar advertencias (warnings).
 
 
 > [!NOTE]
-Todos los ejercicios enfatizan el uso de punteros desde el comienzo. Aunque el tema se aborda puntualmente en la materia, en este repositorio se utiliza desde el inicio para fomentar el acostumbramiento a su uso, dado su importancia central en la asignatura.
+> Los primeros ejercicios enfatizan el uso de punteros. Aunque el tema se aborda puntualmente en la materia, en este repositorio se utiliza desde el inicio para fomentar su uso, dado su importancia central en la materia.
 > 
+## Licencia
+
+MIT License © 2024 Sebastián Vaccaro
