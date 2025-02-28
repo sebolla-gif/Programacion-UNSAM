@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1715372744 source:c:\users\sebav\documents\programacion\7.listas doblemente enlazadas\1.listas dobles(lifo,fifo,ordenado)\main.c
+	<stdio.h>
+	<stdlib.h>
+

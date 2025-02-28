@@ -1,0 +1,114 @@
+suponga que tiene que ejecutar un programa de 6 instrucciones. 
+cada instruccion requiere en total 4 ciclos de clock para completarse(incluyendo fetch, execution y write-back). 
+si tiene un procesador con velocidad de clock de 100MHz. cuanto tardara el programa en ejecutarse?
+
+
+Para determinar cuánto tiempo tardará el programa en ejecutarse, 
+primero necesitamos calcular cuántos ciclos de clock se necesitan en total para todas las instrucciones 
+y luego convertir esos ciclos de clock en tiempo.
+
+Dado que cada instrucción requiere 4 ciclos de clock y hay 6 instrucciones en total, el número total de ciclos de clock necesarios será:
+
+Total de ciclos de clock = 4 ciclos/instrucción * 6 instrucciones = 24 ciclos
+
+Para convertir estos ciclos de clock en tiempo, podemos usar la fórmula:
+
+Tiempo = (Total de ciclos de clock) / (Velocidad de clock)
+
+Dado que la velocidad de clock es de 100 MHz (100 millones de ciclos por segundo), podemos calcular el tiempo de la siguiente manera:
+
+Tiempo = 24 ciclos / (100,000,000 ciclos/segundo) = 0.24 microsegundos
+
+Por lo tanto, el programa tardará aproximadamente 0.24 microsegundos en ejecutarse.
+
+
+
+
+
+
+
+
+
+¿Cúal es la diferencia entre un Microprocesador y un Microcontrolador?
+
+La diferencia principal entre un microprocesador y un microcontrolador radica en su funcionalidad y aplicaciones típicas:
+
+Microprocesador: Es un chip que se utiliza principalmente en sistemas de propósito general, como computadoras personales.
+ Está diseñado para ejecutar un amplio rango de aplicaciones 
+y suele requerir componentes adicionales (como memoria, puertos de entrada/salida, etc.) para funcionar como un sistema completo.
+
+Microcontrolador: Es un dispositivo integrado que combina un núcleo de procesador, 
+memoria (RAM, ROM, o Flash), puertos de entrada/salida y 
+otros componentes necesarios para funcionar como un sistema completo en un solo chip.
+ Los microcontroladores se utilizan en sistemas embebidos y aplicaciones específicas donde se requiere un control preciso y eficiente,
+ como en electrodomésticos, automóviles, sistemas de control industrial, etc.
+
+En resumen, mientras que un microprocesador se utiliza en sistemas de propósito general y requiere componentes adicionales,
+ un microcontrolador es un sistema completo en un solo chip, diseñado para aplicaciones específicas y sistemas embebidos.
+
+
+
+
+
+
+
+
+¿Cúales son las 3 etapas del Pipeline de un Cortex M3 y cúal es su ventaja?
+
+
+El Cortex-M3, un microcontrolador de ARM, no utiliza un pipeline clásico de tres etapas como el que se encuentra en los procesadores convencionales.
+ En cambio, utiliza una arquitectura de pipeline más compleja que consta de etapas adicionales. 
+Estas etapas varían según la implementación específica del diseño del microcontrolador y la versión del Cortex-M3 en cuestión.
+
+En general, el Cortex-M3 utiliza un pipeline de 3 etapas para las instrucciones básicas, pero también incluye etapas adicionales para instrucciones más complejas,
+ como las de carga y almacenamiento múltiples, que pueden llegar a tener un pipeline de hasta 6 etapas.
+
+La principal ventaja de un pipeline es que permite que múltiples instrucciones se ejecuten simultáneamente en diferentes etapas del pipeline,
+ lo que aumenta significativamente la eficiencia y el rendimiento del procesador. Esto se debe a que mientras una instrucción se está ejecutando en una etapa,
+ la siguiente instrucción puede comenzar a ejecutarse en la etapa siguiente, lo que reduce el tiempo total de ejecución de las instrucciones.
+
+
+
+la diferencia entre Von Neumann vs. Harvard.
+
+
+La diferencia principal entre las arquitecturas Von Neumann y Harvard radica en la forma en que manejan la memoria.
+En la arquitectura Von Neumann, tanto las instrucciones del programa como los datos se almacenan en la misma memoria
+ y comparten el mismo bus, lo que puede provocar un cuello de botella cuando el CPU intenta acceder a ambos simultáneamente.
+ En contraste, la arquitectura Harvard utiliza memorias y buses separados para las instrucciones y los datos,
+ permitiendo un acceso concurrente y, por lo tanto, potencialmente mejorando el rendimiento.
+ Esta separación facilita la protección de la memoria y la integridad de los datos,
+ aunque puede ser más compleja y costosa de implementar.
+
+la diferencia entre CISC vs. RISC. 
+
+La diferencia principal entre CISC (Complex Instruction Set Computing) y RISC (Reduced Instruction Set Computing)
+ radica en la complejidad y cantidad de instrucciones que cada arquitectura de CPU maneja.
+ CISC utiliza un conjunto de instrucciones amplio y complejo, donde cada instrucción puede ejecutar múltiples operaciones de bajo nivel.
+ Esto permite que los programas sean más compactos, pero a costa de una mayor complejidad en el diseño del hardware.
+ Por otro lado, RISC utiliza un conjunto de instrucciones reducido y simple, optimizado para ejecutar una instrucción por ciclo de reloj,
+ lo que simplifica el diseño del hardware y permite un rendimiento más predecible y eficiente.
+ En resumen, CISC prioriza la reducción del tamaño del código a través de instrucciones complejas,
+ mientras que RISC optimiza el rendimiento y la simplicidad del hardware mediante instrucciones simples y rápidas.
+
+que es "tamaño de palabra".
+
+El "tamaño de palabra" en informática se refiere a la cantidad de bits que un procesador puede manejar, procesar o transmitir en una sola operación.
+ Este tamaño es fundamental porque determina la cantidad de datos que el CPU puede procesar de manera eficiente en un ciclo de reloj.
+ Un tamaño de palabra más grande permite operaciones más rápidas y el manejo de mayores cantidades de datos simultáneamente.
+ Por ejemplo, un procesador con un tamaño de palabra de 32 bits puede procesar 32 bits de datos a la vez,
+ mientras que uno de 64 bits puede manejar 64 bits de datos en una sola operación,
+ lo que generalmente resulta en un rendimiento superior.
+ El tamaño de palabra también influye en la capacidad de direccionamiento de memoria y en la arquitectura general del sistema.
+
+
+
+Esto Es lo mismo que
+v &v[0]
+v+i &v[i]
+*(v+i) v[i]
+*v v[0]
+
+
+
+

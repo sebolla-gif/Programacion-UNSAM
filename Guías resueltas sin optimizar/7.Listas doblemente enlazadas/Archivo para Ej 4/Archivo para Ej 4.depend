@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1715384284 source:c:\users\sebav\documents\programacion\7.listas doblemente enlazadas\archivo para ej 4\main.c
+	<stdio.h>
+	<stdlib.h>
+	<stdint.h>
+

@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1715131018 source:c:\users\sebav\documents\programacion\5.listas simplemente enlazadas\1.listas simples\main.c
+	<stdio.h>
+	<stdlib.h>
+

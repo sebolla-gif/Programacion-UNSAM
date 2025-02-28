@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1715368540 source:c:\users\sebav\documents\programacion\6.listas simplemete enlazadas-insertar en orden y eliminar\9.listas simples(archivo lista ordenada)\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+

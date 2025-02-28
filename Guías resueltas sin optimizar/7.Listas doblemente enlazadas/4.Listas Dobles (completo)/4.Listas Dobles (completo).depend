@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1715396624 source:c:\users\sebav\documents\programacion\7.listas doblemente enlazadas\4.listas dobles (completo)\main.c
+	<stdio.h>
+	<stdlib.h>
+	<stdint.h>
+	<string.h>
+

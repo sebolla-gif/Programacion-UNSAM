@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1718423789 source:c:\users\sebav\documents\programacion\sistemas de numeración, arquitecturas de hardware y operaciones a nivel bit\modelo\main.c
+	<stdio.h>
+	<stdlib.h>
+
